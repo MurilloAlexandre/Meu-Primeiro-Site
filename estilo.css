@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    
+    font-family: 'Itau Text'
+    
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+header{
+   background: #202020;
+   width: 150%;
+   position: fixed;
+   z-index: 1;
+   margin: -15px;
+
+}
+
+
+ /*   */
+#id-logo{
+    height: 100px;
+}
+
+nav a {
+    color:whitesmoke;
+    text-decoration: none;
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+    
+}
+#id-conta{
+position: absolute;
+left: 1300px;
+top: 50px;
+text-decoration: none;
+color: white;
+}
+
+
+#id-image-inicio{
+    height: 600px;
+    position:relative;
+ 
+   
+}
+
+@keyframes slide {
+   
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-1600px);
+    }
+  
+75%{
+    transform: translateX(-3200px);
+
+}
+
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+/* COMEÇO FORMULARIOS  */
+
+
+
+.slider{
+    width: 600%;
+   
+  
+   
+}
+.slides {
+    display: flex;
+    width: 100%; 
+    animation: slide 15s infinite ; /* Aplica a animação de deslizar */
+}
+
+
+#id-input{
+    position: relative;
+    bottom: 380px;
+    left: 50px;
+    width: 600px;
+    height: 70px;
+   border-radius: 10px; 
+   border-color: whitesmoke;
+   text-align: center;
+   font-size: 18px;
+}
+
+#location{
+    position: relative;
+    bottom: 380px;
+    left: 50px;
+    color: aliceblue;
+}
+
+
+
+#id-checkbox {  
+ 
+ color: white;
+  position: relative;
+  bottom: 380px;
+  left:55px;
+ height: 30px;
+ width: 30px;
+ border-radius:solid 4px;
+ border: solid 1px; 
+}
+
+label{
+    position: relative;
+    bottom: 380px;
+    left:55px;
+   height: 30px;
+   color: white;
+   font-family: 'Times New Roman', Times, serif ;
+}
+#div-checkbox{
+    background-color: #202020;
+}
+/*FIM FORMULARIOS   */
+#id-estrada{
+    position: relative;
+    width: 100%;
+    bottom: 50px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#h1{
+    position: relative;
+    bottom: 110px;
+    left: 110px;
+}
+
+#img-buscados{
+
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color:#202020;
+    height: 200px;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 300;
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+ul{
+    list-style-type: none;
+}
